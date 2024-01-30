@@ -1,0 +1,157 @@
+
+  
+
+  /* //////for slider///////////////////////////////// */
+  
+ @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  .Select_top{
+    background-color: rgb(244, 248, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% 0% 0% 2%;
+    justify-content: space-between;
+    
+}
+
+.content{
+    font-family: Rubik;
+    color: rgb(58, 89, 58);
+    font-size:medium;
+    
+}
+.Logo-edu{
+    font-size: xxx-large;
+    margin-right: 3%;
+}
+
+
+
+/* ///  card css */
+ 
+
+
+/* /////////////                             //////////////// */
+/* CenterPromoPage.css */
+
+.center-promo-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fadc9b;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .promo-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .promo-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .promo-details h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .promo-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .promo-details li {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  
+  button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button:active{
+    background-color: rgb(86, 114, 82);
+    
+  }
+  
+  .interior-image {
+    flex: 1;
+    max-width: 40%;
+    border-radius: 8px;
+  }
+  .wit{
+    width: 95%;
+    margin:2% 1% 0% 1%;
+
+  }
+  .inrow{
+    display:flex;
+    flex-direction: row;
+  }
+  .box-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+  }
+  .box-item1{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    padding: 10% 10% 10% 0%;
+  }
+  .list-item{
+    font-size: medium;
+  }
+  
+  .box-content{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .box-item{
+        display: flex;
+        flex-direction: column;
+      }
+      .interior-image {
+        flex: 1;
+        max-width: 0%;
+        border-radius: 8px;
+      }
+      .inrow{
+        display:flex;
+        flex-direction: column;
+      }
+      .box-item1{
+       padding: 0;
+      }
+  }
+  .newdiv{
+    padding: 3% 4% 1% 1% ;
+  }
+  .box-item2{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    background-color: #bfb7a7;
+    border-radius: 10px;
+  }
+
+  .Prise{
+    margin-left: 50%;
+    
+  }
+.inrow1{
+  display:flex;
+  margin: 5% 0% 7% 0%;
+  gap: 10%;
+}
