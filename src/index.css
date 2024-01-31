@@ -24,7 +24,7 @@ li{
   display: flex;
   background-color: #3b5998;
   grid-column: 2/3;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .logo h2{
