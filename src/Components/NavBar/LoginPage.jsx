@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { FaRegUser } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { RiLockPasswordFill } from "react-icons/ri";
-import './login.css'
+import './Login.css'
 const LoginPage = () => {
   const [action,setAction]=useState("Sign Up");
   return(
